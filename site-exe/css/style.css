@@ -50,6 +50,11 @@ article.box footer {
     text-align: center;
 }
 
+article.box footer:hover {
+    background-color: #4a0b89;
+    transition: 0.3s;
+}
+
 article.box footer>a {
     color: #fff;
     text-decoration: none;
@@ -62,4 +67,17 @@ article.box:hover {
 
 .active {
     box-shadow: 2px 17px 11px 4px #00000053!important;
+}
+
+header h2 {
+    font-size: 19px;
+    text-align: center;
+}
+
+.spn {
+    font-size: 25px;
+}
+
+.active {
+    color: orange;
 }
